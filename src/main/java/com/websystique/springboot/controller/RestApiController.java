@@ -29,11 +29,13 @@ public class RestApiController {
 		User u2 = new User (0, "Ashok", 18, 6000);
 		User u3 = new User (0, "Catbert", 34, 30000);
 		User u4 = new User (0, "Alice", 25, 9000);
+		User u5 = new User (0, "Anil", 25, 1000);
 		
 		users.add(u1);
 		users.add(u2);
 		users.add(u3);
 		users.add(u4);
+		users.add(u5);
 		
 	
 		return new ResponseEntity<List<User>>(users, HttpStatus.OK);
