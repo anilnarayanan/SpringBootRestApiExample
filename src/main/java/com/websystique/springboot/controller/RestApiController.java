@@ -29,7 +29,7 @@ public class RestApiController {
 		User u2 = new User (0, "Ashok", 18, 6000);
 		User u3 = new User (0, "Catbert", 34, 30000);
 		User u4 = new User (0, "Alice", 25, 9000);
-		User u5 = new User (0, "Anil", 25, 1000);
+		User u5 = new User (0, "Anil", 25, 500);
 		
 		users.add(u1);
 		users.add(u2);
